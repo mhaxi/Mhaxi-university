@@ -10,7 +10,10 @@
   margin: 20px;
   left: 0;
 }
-
+.blacky{
+  background-color:black;
+  color:white;
+}
 /* HEADER SECTION */
 .header {
   min-height: 100vh;
@@ -526,3 +529,4 @@ nav .fa {
     padding-top: 150px;
   }
 }
+
