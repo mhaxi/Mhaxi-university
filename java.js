@@ -14,10 +14,10 @@ function mhaxiClass() {
   mhaxi.textContent = "Mhaxi University";
   mhaxi.style.color = "orangered";
 }
-
 function clickMe(){
-  document.body.addclassList('blacky');
+  document.body.addclassList.toggle('blacky');
 }
+
 
 
 
