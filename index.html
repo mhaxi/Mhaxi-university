@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>University Website Design</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="icon-materials"/>
+  </head>
+  <body>
+    <section class="header">
+      <button onclick="clickMe()" id="bodyID">Theme</button>
+      <nav>
+        <a href="index.html"><img src="img/logo.png" /></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()">close</i>
+          <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="courses.html">COURSES</a></li>
+            <li><a href="blog.html">BLOG</a></li>
+            <li><a href="">CONTENT</a></li>
+          </ul>
+        </div>
+        <i class="fa fa-bars" onclick="openMenu()"></i>
+        <i class="fa fa-bars" onclick="openMenu()">open</i>
+      </nav>
+      <div class="text-box">
+        <h1 id="mhaxi" onmouseover="mhaxiClass()">
+          World's Biggest University
+        </h1>
+        <p>
+          Making Website is now one of the easiest thing in the world. you just
+          need to learn HTML,CSS,<br />Javascript and you are good to go.
+        </p>
+        <a href="" class="hero-btn">Visit us to know More</a>
+      </div>
+    </section>
+    <!-------COURSE------>
+    <section class="course">
+      <h1>Courses We Offer</h1>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugiat maxime
+        laudantium ratione
+      </p>
+      <div class="row">
+        <div class="course1">
+          <h3>Intermediate</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            dolore aliquid voluptatibus voluptate repellat repellendus excepturi
+            dolores ullam distinctio molestias ipsum architecto magnam libero
+            delectus. Dignissimos!
+          </p>
+        </div>
+        <div class="course1">
+          <h3>Degree</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            dolore aliquid voluptatibus voluptate repellat repellendus excepturi
+            dolores ullam distinctio molestias ipsum architecto magnam libero
+            delectus. Dignissimos!
+          </p>
+        </div>
+        <div class="course1">
+          <h3>Post Graduation</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            dolore aliquid voluptatibus voluptate repellat repellendus excepturi
+            dolores ullam distinctio molestias ipsum architecto magnam libero
+            delectus. Dignissimos!
+          </p>
+        </div>
+      </div>
+    </section>
+    <!------------ CAMPUS----------->
+    <section class="campus">
+      <h1>Our Global Campus</h1>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit tempore
+        animi
+      </p>
+      <div class="row">
+        <div class="campus-column">
+          <img src="img/london.png" />
+          <div class="layer">
+            <h3>LONDON</h3>
+          </div>
+        </div>
+        <div class="campus-column">
+          <img src="img/newyork.png" />
+          <div class="layer">
+            <h3>NEW YORK</h3>
+          </div>
+        </div>
+        <div class="campus-column">
+          <img src="img/washington.png" />
+          <div class="layer">
+            <h3>WASHINGTON</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------FACILITIES----------- -->
+    <section class="facilities">
+      <h1>Our Facilities</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+        molestias nam iusto. Consequatur dicta debitis voluptatum fugiat, eos
+        magni nulla doloribus sed asperiores officiis error ipsum dignissimos
+        deleniti. Labore, molestias?
+      </p>
+      <div class="row">
+        <div class="facilities-column">
+          <img src="img/library.png" />
+          <h3>World Class Library</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            voluptates.
+          </p>
+        </div>
+        <div class="facilities-column">
+          <img src="img/basketball.png" />
+          <h3>Largest Play Ground</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            voluptates.
+          </p>
+        </div>
+        <div class="facilities-column">
+          <img src="img/cafeteria.png" />
+          <h3>Tasty and Healthy Food</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus
+            voluptates.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- ------TESTIMONIAL----- -->
+    <section class="testimonial">
+      <h1>What Our Students Say</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo eveniet,
+        voluptas dolores Lorem ipsum dolor sit amet consectetur adipisicing
+        elit.
+      </p>
+      <div class="row">
+        <div class="testimonial-column">
+          <img src="img/user1.jpg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              autem nisi aut similique Qui illo et, reiciendis minus est velit
+              recusandae nemo. Eveniet, tempore,
+            </p>
+            <h3>Christine</h3>
+          </div>
+        </div>
+        <div class="testimonial-column">
+          <img src="img/user2.jpg" />
+          <div>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis
+              autem nisi aut similique Qui illo et, reiciendis minus est velit
+              recusandae nemo. Eveniet, tempore
+            </p>
+            <h3>David Byre</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-----CALL TO ACTION----->
+    <section class="cta">
+      <h1>
+        Enroll For Our Various Online Courses<br />
+        Anywhere From The World
+      </h1>
+      <a href="#">CONTACT US</a>
+    </section>
+    <!-- -----FOOTER---- -->
+    <section class="footer">
+      <h4>About Us</h4>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur
+        exercitationem quibusdam,<br />
+        architecto in, blanditiis accusantium ipsam excepturi fugiat fuga quos.
+      </p>
+    </section>
+    <!-- <--------JAVASCRIPT TOGGLE MENU ----->
+    <script src="java.js"></script>
+  </body>
+</html>
