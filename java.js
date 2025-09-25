@@ -14,9 +14,14 @@ function mhaxiClass() {
   mhaxi.textContent = "Mhaxi University";
   mhaxi.style.color = "orangered";
 }
-function clickMe(){
-  document.body.addclassList.toggle('blacky');
+const colors = ["black"];
+let change = 0;
+function clickMe() {
+  document.body.style.backgroundColor = colors;
+  change++;
+  document.body.style.color = "white";
 }
+
 
 
 
