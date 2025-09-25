@@ -16,6 +16,7 @@ function mhaxiClass() {
 }
 
 function clickMe(){
-  document.body.addclassList.toggle('blacky')
+  document.body.addclassList.toggle('blacky');
 }
+
 
