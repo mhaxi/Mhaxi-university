@@ -15,10 +15,7 @@ function mhaxiClass() {
   mhaxi.style.color = "orangered";
 }
 
-const colors = ["black"];
-let change = 0;
-function clickMe() {
-  document.body.style.backgroundColor = colors;
-  change++;
-  document.body.style.color = "white";
+function clickMe(){
+  document.body.addclassList.toggle('blacky')
 }
+
